@@ -58,6 +58,14 @@ h5 { font-size: 2em; }
 
 h6 { font-size: 1.5em; }
 
+/*Line thickness*/
+hr {
+    border: none;
+    height: 3px;
+    /* Set the hr color */
+    color: #333; /* old IE */
+    background-color: #333; /* Modern Browsers */
+}
 
 
 

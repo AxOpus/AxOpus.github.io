@@ -26,14 +26,6 @@ We are not in any way affiliated with _What the health_, or connected to any foo
 
 ---
 
-
-```javascript
-var s = "JavaScript syntax highlighting";
-alert(s);
-```
-
-
-
 ## Introduction ##
 What is healthy eating? It used to be straightforward, but now we are inundated with diets, lifestyles, conflicting information: fat is the enemy, no! carbs are to blame; bloggers making a penny from ''10 reasons why YOU should start fasting'', rising quinoa prices, kale belly. It is an endless stream of organic bullshit. 
 

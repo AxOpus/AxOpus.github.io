@@ -1,16 +1,22 @@
-/* Custom container */
-h2:before, h2:after, 
-h3:before, h3:after, 
-h4:before, h4:after,
-h5:before, h5:after,
-h6:before, h6:after{
+
+/*Add lines before and after headers*/
+@media (min-width:480px){
+  /* Custom container */
+  h2:before, h2:after, 
+  h3:before, h3:after, 
+  h4:before, h4:after,
+  h5:before, h5:after,
+  h6:before, h6:after{
   content:"";
   display:inline-block;
   vertical-align:middle;
-  width:46px;height:1px;
+  width:5rem;height:0.1rem;
   background:#c0d3da;
-  margin:0 30px
+  margin:0 30px;
+  word-wrap: break-word;
+  }
 }
+
 /* Replaced with normal container and standard footer */
 /*.container-narrow {
   margin: 0 auto;

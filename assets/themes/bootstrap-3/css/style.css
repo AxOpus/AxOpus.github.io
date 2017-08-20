@@ -17,6 +17,7 @@
   }
 }
 
+
 /* Replaced with normal container and standard footer */
 /*.container-narrow {
   margin: 0 auto;
@@ -101,7 +102,6 @@ ul li ul {
 }
 
 p {
-  margin-top: 1.25em;
   font-family: 'EB Garamond', serif;
   font-size: 1.4em;
   line-height: 2em;
@@ -187,7 +187,8 @@ blockquote > p{
 }
 #footer {
   background-color: #fdcd60;
-}*/
+}
+*/
 
 
 /* posts index */

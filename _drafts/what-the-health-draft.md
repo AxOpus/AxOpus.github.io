@@ -8,9 +8,9 @@ tags : [health]
 
 ## Overview ##
 
-What the health <sup>[</sup>[^1]<sup>]</sup> is a documentary available on Netflix which has caused considerable controversy for its pro-vegan stance. Rebuttals <sup>[</sup>[^2]<sup>]</sup>, and counter-rebuttals <sup>[</sup>[^3]<sup>,</sup> [^4]<sup>]</sup> have been made, and a brief search on YouTube for "What the Health debunked" brings up dozens of other videos in relation to this topic. 
+_What the Health_ [^1] is a documentary available on Netflix which has caused considerable controversy for its pro-vegan stance. Rebuttals [^2], and counter-rebuttals [^3]<sup>,</sup> [^4] have been made, and a brief search on YouTube for "What the Health debunked" brings up dozens of other videos in relation to this topic. 
 
-We wanted to investigate the literature ourselves in a dispassionate manner; we have no stake (steak?) in this, except trying to find what the current scientific literature supports. The film's website has a detailed, timestamped, list of facts <sup>[</sup>[^5]<sup>]</sup> if you are particularly interested in one the claims made. 
+We wanted to investigate the literature ourselves in a dispassionate manner; we have no stake (steak?) in this, except trying to find what the current scientific literature supports. The film's website has a detailed, timestamped, list of facts [^5] if you are particularly interested in one of the claims made. 
 
 We are not vegans, but nor are we willing to dismiss the viewpoint of the film without investigating it to the best of our abilities. 
 
@@ -22,7 +22,7 @@ We make no comment on the ethical considerations of the film, we are merely look
 
 We are not medical doctors, and any information in this post does not constitute medical advice. Always consult your doctor regarding health issues.
 
-We are not in any way affiliated with _What the health_, or connected to any food industry.
+We are not in any way affiliated with _What the Health_, or connected to any food industry.
 
 ---
 
@@ -31,31 +31,36 @@ What is healthy eating? It used to be straightforward, but now we are inundated 
 
 To make it easier to find a specific piece of information we've organised this post as follows:
 
-- [Meats](#meats)
-    - [Red Meat](#red-meat)
-    - [White Meat](#white-meat)
-    - [Fish](#fish)
-- [Dairy](#dairy)
-- [Eggs](#eggs)
-- [Bread](#bread)
+- [1. Meats](#1-meats)
+    - [1.1 Red Meat](#11-red-meat)
+    - [1.2 White Meat](#12-white-meat)
+    - [1.3 Fish](#13-fish)
+- [2. Dairy](#2-dairy)
+- [3. Eggs](#3-eggs)
+- [4. Bread](#4-bread)
+- [5. Conclusions](#5-conclusions)
+- [6. References](#6-references)
 
 
-### Meats ###
+### 1. Meats ###
+Here are some test references [^6], [^7], [^8]
 
 
-##### Red Meat #####
+##### 1.1 Red Meat #####
 
-##### White Meat #####
+##### 1.2 White Meat #####
 
-##### Fish #####
+##### 1.3 Fish #####
 
-### Dairy ###
+### 2. Dairy ###
 
-### Eggs ###
+### 3. Eggs ###
 
-### Bread ###
+### 4. Bread ###
 
-### References ###
+### 5. Conclusions ###
+
+### 6. References ###
 [^1]: What the health, [Link](https://www.whatthehealthfilm.com)
 
 [^2]: A Real Doctor Watches "What The Health" ZDoggMD.com, [Link](https://www.youtube.com/watch?v=skIGCoopR-g)
@@ -65,6 +70,14 @@ To make it easier to find a specific piece of information we've organised this p
 [^4]: BREAKING NEWS: Plant Based Doctor SCHOOLS What The Health Critic, [Link](https://www.youtube.com/watch?v=M7b4kBTuHF0)
 
 [^5]: What the health facts, [Link](https://www.whatthehealthfilm.com/facts/)
+
+[^6]: M. G. Haselton, D. Nettle, and D. R. Murray, “The evolution of cognitive bias,” in *The handbook of evolutionary psychology*, John Wiley & Sons, Inc., 2015 \[Online\]. Available: <a href="http://dx.doi.org/10.1002/9781119125563.evpsych241" class="uri" class="uri">http://dx.doi.org/10.1002/9781119125563.evpsych241</a>
+
+[^7]: J. Evans, *Bias in human reasoning: Causes and consequences*. Erlbaum, 1990.
+
+[^8]: A. Allahverdyan Armen E. AND Galstyan, “Opinion dynamics with confirmation bias,” *PLOS ONE*, vol. 9, no. 7, pp. 1–14, Jul. 2014 \[Online\]. Available: <a href="https://doi.org/10.1371/journal.pone.0099557" class="uri" class="uri">https://doi.org/10.1371/journal.pone.0099557</a>
+
+
 
 
 

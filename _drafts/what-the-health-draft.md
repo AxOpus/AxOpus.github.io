@@ -8,13 +8,11 @@ tags : [health]
 
 ## Overview ##
 
-_What the Health_ [^1] is a documentary available on Netflix which has caused considerable controversy for its pro-vegan stance. Rebuttals [^2], and counter-rebuttals [^3]<sup>,</sup> [^4] have been made, and a brief search on YouTube for "What the Health debunked" brings up dozens of other videos in relation to this topic. 
+_What the Health_ [^1] is a documentary available on Netflix which has created considerable interest around its pro-vegan stance. Rebuttals [^2], and counter-rebuttals [^3] [^4] have been made, and a brief search on YouTube for "What the health debunked" brings up dozens of other videos in relation to this topic. The film's website has a detailed, timestamped, list of facts [^5] if you are particularly interested in one of the claims made. 
 
-We wanted to investigate the literature ourselves in a dispassionate manner; we have no stake (steak?) in this, except trying to find what the current scientific literature supports. The film's website has a detailed, timestamped, list of facts [^5] if you are particularly interested in one of the claims made. 
+We wanted to investigate the literature ourselves in a dispassionate manner; we have no stake (steak?) in this, except trying to find what the current scientific literature supports. 
 
-We are not vegans, but nor are we willing to dismiss the viewpoint of the film without investigating it to the best of our abilities. 
-
-We make no comment on the ethical considerations of the film, we are merely looking at the scientific evidence.
+We are not vegans, but nor are we willing to dismiss the viewpoint of the film without investigating it to the best of our abilities. We make no comment on the ethical considerations covered in the film, we are merely looking at the scientific evidence on the nutritional aspect.
 
 ---
 
@@ -43,7 +41,7 @@ To make it easier to find a specific piece of information we've organised this p
 
 
 ### 1. Meats ###
-Here are some test references [^6], [^7], [^8]
+Here are some test references [^6] [^7] [^8] [^2]
 
 
 ##### 1.1 Red Meat #####

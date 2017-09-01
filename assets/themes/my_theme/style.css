@@ -17,6 +17,13 @@
   }
 }
 
+.navbar {
+    margin-bottom: 0;
+}
+
+.page-header {
+  margin-top: 0;
+}
 
 /* Replaced with normal container and standard footer */
 /*.container-narrow {

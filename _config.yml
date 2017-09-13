@@ -22,7 +22,9 @@ author :
 #             Collection list
 ###################################################
 collections:
-  Intro:
+  StanfordML:
+    output: true
+  StanfordDeepLearning:
     output: true
 
 # The production_url is only used when full-domain names are needed

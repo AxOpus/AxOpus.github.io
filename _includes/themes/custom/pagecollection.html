@@ -7,10 +7,14 @@
 {{ content }}
 <div class="PageNavigation">
   {% if page.previous.url %}
-    <a class="prev" href="{{page.previous.url}}">&laquo; {{page.previous.title}}</a>
+  <span style="float: left;">
+    <a class="prev" href="{{page.previous.url}}"><i class="fa fa-long-arrow-left" aria-hidden="true"></i> {{page.previous.title}}</a>
+  </span>
   {% endif %}
   {% if page.next.url %}
-    <a class="next" href="{{page.next.url}}">{{page.next.title}} &raquo;</a>
+  <span style="float: right;">
+    <a class="next" href="{{page.next.url}}">{{page.next.title}} <i class="fa fa-long-arrow-right" aria-hidden="true"></i></a>
+  </span>
   {% endif %}
 </div>
 </div>

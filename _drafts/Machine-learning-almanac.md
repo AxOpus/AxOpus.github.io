@@ -18,6 +18,7 @@ This is a curated list of Machine learning (ML) and Artificial Intelligence (AI)
 - [Reinforcement Learning](#reinforcement-learning)
 - [Communities](#communities)
 - [Blogs](#blogs)
+- [Guides](#guides)
 
 ## Starter materials
 **[Andrew Ng's Coursera Course](https://www.coursera.org/learn/machine-learning/home/welcome) (2011)** A solid foundational course in ML. Covers supervised and unsupervised learning in a fairly simple manner, so you don't get too bogged down in the maths. Although the field has advanced significantly since, particularly in deep learning, the principles remain. It uses Octave (or Matlab), which is useful if you only know python.
@@ -62,6 +63,10 @@ A large portion of machine learning relies on three main branches of maths: line
 
 **[Information Theory, Inference, and Learning Algorithms(MacKay)](http://www.inference.org.uk/mackay/itila/book.html) (2005)** Very useful information on a variety of topics, especially sampling.
 
+**[Artificial Intelligence: A Modern Approach](http://aima.cs.berkeley.edu) (2016)** 
+
+**[Computer Age Statistical Inference](https://web.stanford.edu/~hastie/CASI_files/PDF/casi.pdf?utm_content=buffercb64f&utm_medium=social&utm_source=twitter.com&utm_campaign=buffer) (2017)**
+
 ## Deep Learning
 Deep learning (neural networks) is the topic of the moment, and there are significant resources available online for self-study.
 
@@ -87,4 +92,7 @@ Deep learning (neural networks) is the topic of the moment, and there are signif
 
 ## Blogs
 **[Andrej Karpathy's blog](http://karpathy.github.io)** Not updated since 2016, but has some nice articles
+
+## Guides
+**[Getting started with TensorFlow](https://www.tensorflow.org/get_started/get_started)**
 

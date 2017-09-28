@@ -19,6 +19,7 @@ This is a curated list of Machine learning (ML) and Artificial Intelligence (AI)
 - [Communities](#communities)
 - [Blogs](#blogs)
 - [Guides](#guides)
+- [Videos](#videos)
 
 ## Starter materials
 **[Andrew Ng's Coursera Course](https://www.coursera.org/learn/machine-learning/home/welcome) (2011)** A solid foundational course in ML. Covers supervised and unsupervised learning in a fairly simple manner, so you don't get too bogged down in the maths. Although the field has advanced significantly since, particularly in deep learning, the principles remain. It uses Octave (or Matlab), which is useful if you only know python.
@@ -67,6 +68,8 @@ A large portion of machine learning relies on three main branches of maths: line
 
 **[Computer Age Statistical Inference](https://web.stanford.edu/~hastie/CASI_files/PDF/casi.pdf?utm_content=buffercb64f&utm_medium=social&utm_source=twitter.com&utm_campaign=buffer) (2017)**
 
+**[Neural Networks and Deep Learning (Michael Nielsen)](http://neuralnetworksanddeeplearning.com) (2017)**
+
 ## Deep Learning
 Deep learning (neural networks) is the topic of the moment, and there are significant resources available online for self-study.
 
@@ -95,4 +98,11 @@ Deep learning (neural networks) is the topic of the moment, and there are signif
 
 ## Guides
 **[Getting started with TensorFlow](https://www.tensorflow.org/get_started/get_started)**
+
+**[What Every Computer Scientist Should Know About Floating-Point Arithmetic](http://docs.oracle.com/cd/E19957-01/806-3568/ncg_goldberg.html)**
+
+**[ArXiV Sanity (Andrej Karpathy)](http://www.arxiv-sanity.com)**
+
+## Videos
+**[Deep Learning for Computer Vision (Andrej Karpathy, OpenAI)](https://www.youtube.com/watch?v=u6aEYuemt0M) (2016)**
 

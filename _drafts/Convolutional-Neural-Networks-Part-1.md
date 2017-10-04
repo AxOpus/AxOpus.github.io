@@ -22,7 +22,7 @@ Part 1:
   - [2.1 Kernel](#21-kernel)
   - [2.2 Strides](#22-strides)
   - [2.3 Padding](#23-padding)
-  - [2.4 Pooling](#24-pooling)
+  - [2.4 Activation and pooling](#24-activation-and-pooling)
   - [2.5 Putting it all together](#25-putting-it-all-together)
 
 Part 2:
@@ -56,14 +56,14 @@ As an aside, you may feel that this representation severely limits computer visi
 
 <figure class="figure">
   <img src="http://i.ytimg.com/vi/uAu3jQWaN6E/sddefault.jpg" class="center-block img-responsive" alt="Geoffrey Hinton">
-  <figcaption class="figure-caption text-center">Geoffrey Hinton rendered at 640 x 480</figcaption>
+  <figcaption class="figure-caption text-center">Fig 1. Geoffrey Hinton rendered at 640 x 480</figcaption>
 </figure>
 
 Now, consider this image as being a stacked series of vectors in $$\mathbb{R}^{640}$$. We could move _through_ this space, adjusting values one at a time as appropriate until we reached a combination that looked like this:
 
 <figure class="figure">
   <img src="https://i.ytimg.com/vi/iyLqU6MpfO0/sddefault.jpg" class="center-block img-responsive" alt="Yoshua Bengio">
-  <figcaption class="figure-caption text-center">Yoshua Bengio rendered at 640 x 480</figcaption>
+  <figcaption class="figure-caption text-center">Fig 2. Yoshua Bengio rendered at 640 x 480</figcaption>
 </figure>
 
 Now imagine all the images that we would have seen on that journey from one image to another. They all live in the same vector space, and each individual image occupies one part of that space. It is possible, therefore, to produce a $$640 \times 480$$ image which is a representation of _anyone who has ever lived or ever will live_. That's right. By adjusting those pixel values we could obtain representational images of Caeser, Aristotle, [George Eastman](https://en.wikipedia.org/wiki/George_Eastman), or anyone who will ever be born. That is really incredible.
@@ -121,9 +121,11 @@ Now, each combination of matrix entries in our ```3 x 3``` kernel will produce s
 
 You can play around with adjusting the kernel values in the notebook, or you can use [this](http://setosa.io/ev/image-kernels/) excellent website.
 
-So this is all well and good, but this is still quite abstract. Let's go through a concrete example. If you look at **Example 1.4** in the jupyter notebook you will see two kernels which are the cropped eyes of the image. We go across all the pixels in the image convolving the left eye kernel at each point. It can be seen that when the kernel passes over the left eye the output image at this point is extremely bright. This means that a left eye has been found in an image. A similar behaviour can be seen with the right eye kernel.
+So this is all well and good, but this is still quite abstract. Let's go through a concrete example. If you look at **Example 1.3** in the jupyter notebook you will see two kernels which are the cropped eyes of the image. We go across all the pixels in the image convolving the left eye kernel at each point. It can be seen that when the kernel passes over the left eye the output image at this point is extremely bright. This means that a left eye has been found in an image. A similar behaviour can be seen with the right eye kernel.
 
 Imagine now we have lots and lots of these kernels, each taking on a separate feature. For example, imagine separate kernels for a mouth, nose, left, and right eye of a person. Then, if we were to convolve each of this with an image, and all these features were detected, then it is likely that we are looking at an image of a person.
+
+The most important thing to remember is that the CNN is trying to find the values (weight) for these kernels. It is these that are the parameters of the network, and the network will learn these features.
 
 ### 2.2 Strides
 So far we have been 'sliding' our kernel across the image one pixel at a time. This produces an output image which is very close to the same size as our input. This is usually beneficial, but on occasion we may be able to move 2 or even 3 pixels at a time, without a significant loss in performance.
@@ -154,28 +156,26 @@ $$
 
 Note that this can lead to combinations of padding, kernel size, image, and stride which do not divide into integers. Most CNN implementations will have some way of handling this, usually by increasing padding. However it is advisable to try and keep the combinations divisible, at least when starting out with CNNs, to aid with debugging.
 
-### 2.4 Pooling
+### 2.4 Activation and pooling
 
+After we have performed the convolution operation we obtain the output image. As you will be familiar with if you have worked with neural networks, we then apply an elementwise activation function, such as ReLU or ELU. This introduces non-linearity into the function, so that our layers aren't simply linear combinations.
 
+To control the number of parameters it is common to insert a pooling layer after the output of the activation layer. Typically this is max-pooling, in which the maximum of a small grid of the input image is inserted into the pooling layer.
+
+Typically, strides of 2 are used with a grid size of ```2 x 2``` such that the output of the pooling layer is half the width and height of the input. This can be seen in the following graphic:
+
+<figure class="figure">
+  <img src="https://upload.wikimedia.org/wikipedia/commons/e/e9/Max_pooling.png" class="center-block img-responsive" alt="Max pooling">
+  <figcaption class="figure-caption text-center">Fig 3. Max pooling example</figcaption>
+</figure>
 
 ### 2.5 Putting it all together
+So far we have seen the components of a CNN in isolation. The most basic CNN architecture may look like:
 
-# 3. Implementation
+```python
+Input image -> Convolution -> ReLU -> Max Pool -> FC -> ReLU -> FC -> SoftMax
+```
 
-### 3.1 Forward propagation
+We recall that the images we are dealing with are of shape: ```C x H x W```. Although we have shown the kernel convolving on a 2D image, it is important to note that the kernels need to be of the same depth as the image. So our kernels will be of size: ```C x k x k```. An excellent example of this is shown [here](http://cs231n.github.io/assets/conv-demo/index.html).
 
-##### 3.1.1 Maths
-
-##### 3.1.2 Python
-
-### 3.2 Backward propagation
-
-##### 3.2.1 Maths
-
-##### 3.2.2 Python
-
-### 3.3 TensorFlow
-
-### 3.4 PyTorch
-
-# 4. Example
+Now, we said that there can be multiple kernels, so we can consider a single kernel to be of size: ```1 x C x k x k```, which means that ```K``` kernels will be of size: ```K x C x k x k```. This may be slightly complicated to try and visualise, so it may become clearer in Part 2, when we show the implementation of it.

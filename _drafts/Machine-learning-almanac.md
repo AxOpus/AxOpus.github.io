@@ -6,7 +6,7 @@ tags : [machine learning, AI, automation]
 {% include JB/setup %}
 
 ## Overview
-This is a curated list of Machine learning (ML) and Artificial Intelligence (AI) resources. There is a huge amount of information available, but this is collection of some books, courses, blogs to start. 
+This is a curated list of Machine learning (ML) and Artificial Intelligence (AI) resources. There is a huge amount of information available, but this is collection of some books, courses, blogs to start.
 
 #### Contents
 
@@ -36,11 +36,11 @@ A large portion of machine learning relies on three main branches of maths: line
 #### Linear Algebra
 **[MIT - Linear Algebra](https://ocw.mit.edu/courses/mathematics/18-06sc-linear-algebra-fall-2011/index.htm) (2011)** A complete introduction to linear algebra, with lecture videos and recitations.
 
-**[Essence of Linear Algebra](https://youtu.be/kjBOesZCoqc) (2016)** A beautiful collection of videos introducing linear algebra. They visualise the matrix transformations in a way not possible in textbooks. 
+**[Essence of Linear Algebra](https://youtu.be/kjBOesZCoqc) (2016)** A beautiful collection of videos introducing linear algebra. They visualise the matrix transformations in a way not possible in textbooks.
 
 #### Probability
 
-**[MIT - Probabilistic Systems and Applied Probability](https://ocw.mit.edu/courses/electrical-engineering-and-computer-science/6-041sc-probabilistic-systems-analysis-and-applied-probability-fall-2013/) (2013)** A relatively intense course covering probabilistic modelling. 
+**[MIT - Probabilistic Systems and Applied Probability](https://ocw.mit.edu/courses/electrical-engineering-and-computer-science/6-041sc-probabilistic-systems-analysis-and-applied-probability-fall-2013/) (2013)** A relatively intense course covering probabilistic modelling.
 
 #### Calculus
 
@@ -54,17 +54,17 @@ A large portion of machine learning relies on three main branches of maths: line
 
 **[Machine Learning: A Probabilistic Perspective (Murphy)](https://www.amazon.co.uk/Machine-Learning-Probabilistic-Perspective-Computation/dp/0262018020/ref=pd_lpo_sbs_14_t_1?_encoding=UTF8&psc=1&refRID=B586DMKGVCMJ80X4AAHY) (2012)** Similar scope to Bishop, with some alternative presentations.
 
-**[Elements of Statistical Learning (Hastie, Tibshirani, Friedman)](https://web.stanford.edu/~hastie/Papers/ESLII.pdf) (2009)** 
+**[Elements of Statistical Learning (Hastie, Tibshirani, Friedman)](https://web.stanford.edu/~hastie/Papers/ESLII.pdf) (2009)**
 
 **[Deep Learning (Goodfellow, Bengio)](http://www.deeplearningbook.org) (2016)**
 
-**[Bayesian Reasoning and Machine Learning (Barber)](http://web4.cs.ucl.ac.uk/staff/D.Barber/textbook/090310.pdf) (2012)** 
+**[Bayesian Reasoning and Machine Learning (Barber)](http://web4.cs.ucl.ac.uk/staff/D.Barber/textbook/090310.pdf) (2012)**
 
 **[Reinforcement Learning: An Introduction (Sutton, Barto)](http://incompleteideas.net/sutton/book/bookdraft2016sep.pdf) (2016)** The definitive book on Reinforcement Learning (RL).
 
 **[Information Theory, Inference, and Learning Algorithms(MacKay)](http://www.inference.org.uk/mackay/itila/book.html) (2005)** Very useful information on a variety of topics, especially sampling.
 
-**[Artificial Intelligence: A Modern Approach](http://aima.cs.berkeley.edu) (2016)** 
+**[Artificial Intelligence: A Modern Approach](http://aima.cs.berkeley.edu) (2016)**
 
 **[Computer Age Statistical Inference](https://web.stanford.edu/~hastie/CASI_files/PDF/casi.pdf?utm_content=buffercb64f&utm_medium=social&utm_source=twitter.com&utm_campaign=buffer) (2017)**
 
@@ -79,7 +79,7 @@ Deep learning (neural networks) is the topic of the moment, and there are signif
 
 **[Stanford - Convolutional Neural Networks for Visual Recognition](http://cs231n.github.io) (2017)**
 
-**[Stanford - TensorFlow for Deep Learning Research](http://web.stanford.edu/class/cs20si/syllabus.html) (2017)** This is focused on TensorFlow, and is a nice start if you haven't used it before. 
+**[Stanford - TensorFlow for Deep Learning Research](http://web.stanford.edu/class/cs20si/syllabus.html) (2017)** This is focused on TensorFlow, and is a nice start if you haven't used it before.
 
 ## Reinforcement Learning
 **[Stanford - Reinforcement Learning](http://web.stanford.edu/class/cs234/syllabus.html) (2017)**
@@ -105,4 +105,3 @@ Deep learning (neural networks) is the topic of the moment, and there are signif
 
 ## Videos
 **[Deep Learning for Computer Vision (Andrej Karpathy, OpenAI)](https://www.youtube.com/watch?v=u6aEYuemt0M) (2016)**
-

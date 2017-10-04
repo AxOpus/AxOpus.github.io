@@ -86,6 +86,9 @@ hr {
 ul, ol{
     text-align: left;
     margin-bottom: 0;
+    margin-top: 0;
+    margin-left: auto;
+    margin-right: auto;
     font-family: "eb garamond", serif;
     font-weight: 400;
     font-style: normal;
@@ -98,9 +101,7 @@ ul, ol{
     font-feature-settings: none;
     font-synthesis: weight style;
     font-size: 1.2em;
-    line-height: 2;
-    margin-left: auto;
-    margin-right: auto
+    line-height: 1.6;
 }
 
 /*Stops inner lists scaling*/

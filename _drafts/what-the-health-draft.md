@@ -8,9 +8,9 @@ tags : [health]
 
 ## Overview ##
 
-_What the Health_ [^1] is a documentary available on Netflix which has created considerable interest around its pro-vegan stance. Rebuttals [^2], and counter-rebuttals [^3] [^4] have been made, and a brief search on YouTube for "What the health debunked" brings up dozens of other videos in relation to this topic. The film's website has a detailed, timestamped, list of facts [^5] if you are particularly interested in one of the claims made. 
+_What the Health_ [^1] is a documentary available on Netflix which has created considerable interest around its pro-vegan stance. Rebuttals [^2], and counter-rebuttals [^3] [^4] have been made, and a brief search on YouTube for "What the health debunked" brings up dozens of other videos in relation to this topic. The film's website has a detailed, timestamped, list of facts [^5] if you are particularly interested in one of the claims made.
 
-We wanted to investigate the literature ourselves in a dispassionate manner; we have no stake (steak?) in this, except trying to find what the current scientific literature supports. 
+We wanted to investigate the literature ourselves in a dispassionate manner; we have no stake (steak?) in this, except trying to find what the current scientific literature supports.
 
 We are not vegans, but nor are we willing to dismiss the viewpoint of the film without investigating it to the best of our abilities. We make no comment on the ethical considerations covered in the film, we are merely looking at the scientific evidence on the nutritional aspect.
 
@@ -25,7 +25,7 @@ We are not in any way affiliated with _What the Health_, or connected to any foo
 ---
 
 ## Introduction ##
-What is healthy eating? It used to be straightforward, but now we are inundated with diets, lifestyles, conflicting information: fat is the enemy, no! carbs are to blame; bloggers making a penny from ''10 reasons why YOU should start fasting'', rising quinoa prices, kale belly. It is an endless stream of organic bullshit. 
+What is healthy eating? It used to be straightforward, but now we are inundated with diets, lifestyles, conflicting information: fat is the enemy, no! carbs are to blame; bloggers making a penny from ''10 reasons why YOU should start fasting'', rising quinoa prices, kale belly. It is an endless stream of organic bullshit.
 
 To make it easier to find a specific piece of information we've organised this post as follows:
 
@@ -74,9 +74,3 @@ Here are some test references [^6] [^7] [^8] [^2]
 [^7]: J. Evans, *Bias in human reasoning: Causes and consequences*. Erlbaum, 1990.
 
 [^8]: A. Allahverdyan Armen E. AND Galstyan, “Opinion dynamics with confirmation bias,” *PLOS ONE*, vol. 9, no. 7, pp. 1–14, Jul. 2014 \[Online\]. Available: <a href="https://doi.org/10.1371/journal.pone.0099557" class="uri" class="uri">https://doi.org/10.1371/journal.pone.0099557</a>
-
-
-
-
-
-

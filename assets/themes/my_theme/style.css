@@ -2,8 +2,8 @@
 /*Add lines before and after headers*/
 @media (min-width:480px){
   /* Custom container */
-  h2:before, h2:after, 
-  h3:before, h3:after, 
+  h2:before, h2:after,
+  h3:before, h3:after,
   h4:before, h4:after,
   h5:before, h5:after,
   h6:before, h6:after{
@@ -137,7 +137,7 @@ ul, ol {
 
 .table {
    margin: auto;
-   width: 50% !important; 
+   width: 50% !important;
     margin-bottom: 0;
     font-family: "eb garamond", serif;
     font-weight: 400;
@@ -184,6 +184,107 @@ blockquote > p{
     line-height: 2;
     position: relative;
 }
+
+/*
+
+CUSTOM CSS FOR SIDE SCROLL
+
+*/
+
+.group {
+    background: yellow;
+    width: 200px;
+    height: 500px;
+}
+.group .subgroup {
+    background: orange;
+    width: 150px;
+    height: 200px;
+}
+.fixed {
+    position: fixed;
+}
+
+/* sidebar */
+.bs-docs-sidebar {
+    padding-left: 20px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+/* all links */
+.bs-docs-sidebar .nav>li>a {
+    color: #999;
+    border-left: 2px solid transparent;
+    padding: 4px 20px;
+    font-size: 13px;
+    font-weight: 400;
+}
+
+/* all links */
+.bs-docs-sidebar .nav>li>ul>li>a {
+    color: #999;
+    border-left: 2px solid transparent;
+    padding: 4px 20px;
+    font-size: 13px;
+    font-weight: 400;
+}
+
+.nav ul {
+  list-style-type: none;
+}
+/* nested links */
+/*.bs-docs-sidebar .nav li>ul>li>a {
+    padding-top: 1px;
+    padding-bottom: 1px;
+    padding-left: 30px;
+    font-size: 12px;
+}*/
+
+/* active & hover links */
+.bs-docs-sidebar .nav>.active>a,
+.bs-docs-sidebar .nav>li>a:hover,
+.bs-docs-sidebar .nav>li>a:focus {
+    color: #22a7d8;
+    text-decoration: none;
+    background-color: transparent;
+    border-left-color: #22a7d8;
+}
+
+.bs-docs-sidebar .nav>li>ul>.active>a,
+.bs-docs-sidebar .nav>li>ul>li>a:hover,
+.bs-docs-sidebar .nav>li>ul>li>a:focus {
+    color: #22a7d8;
+    text-decoration: none;
+    background-color: transparent;
+    border-left-color: #22a7d8;
+}
+
+/* all active links */
+.bs-docs-sidebar .nav>.active>a,
+.bs-docs-sidebar .nav>.active:hover>a,
+.bs-docs-sidebar .nav>.active:focus>a {
+    font-weight: 700;
+}
+/* nested active links */
+.bs-docs-sidebar .nav li>.active>a,
+.bs-docs-sidebar .nav li>.active:hover>a,
+.bs-docs-sidebar .nav li>.active:focus>a {
+    font-weight: 500;
+}
+
+/* nested active links */
+.bs-docs-sidebar .nav>li>ul>li>.active>a,
+.bs-docs-sidebar .nav>li>ul>li>.active:hover>a,
+.bs-docs-sidebar .nav>li>ul>li>.active:focus>a {
+    font-weight: 500;
+}
+
+/*
+
+END CUSTOM CSS
+
+*/
 
 
 

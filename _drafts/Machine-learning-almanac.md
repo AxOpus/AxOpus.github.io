@@ -10,16 +10,8 @@ This is a curated list of Machine learning (ML) and Artificial Intelligence (AI)
 
 #### Contents
 
-- [Starter Materials](#starter-materials)
-- [Background Programming](#background-programming)
-- [Background Mathematics](#background-mathematics)
-- [Books](#books)
-- [Deep Learning](#deep-learning)
-- [Reinforcement Learning](#reinforcement-learning)
-- [Communities](#communities)
-- [Blogs](#blogs)
-- [Guides](#guides)
-- [Videos](#videos)
+- TOC
+{:toc}
 
 ## Starter materials
 **[Andrew Ng's Coursera Course](https://www.coursera.org/learn/machine-learning/home/welcome) (2011)** A solid foundational course in ML. Covers supervised and unsupervised learning in a fairly simple manner, so you don't get too bogged down in the maths. Although the field has advanced significantly since, particularly in deep learning, the principles remain. It uses Octave (or Matlab), which is useful if you only know python.

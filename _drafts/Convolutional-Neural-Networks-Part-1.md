@@ -39,6 +39,8 @@ Part 2:
 
 We presume you have some familiarity with neural networks (at least to the level of understanding the forward and backward passes) and Python. Additionally we will also reference supporting material where appropriate.
 
+A small jupyter notebook is made available [here]() which will be used to enhance the examples.
+
 # 1. Background
 ### 1.1 Motivation
 CNNs take advantage of data which is spatially related. For example in an image, or in a time history. The principle idea is that by looking at smaller local regions of the data, we might find something that looks like an edge, or an eye. We can then combine these to try and determine what is in the image.
